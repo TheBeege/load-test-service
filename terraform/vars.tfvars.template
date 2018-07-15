@@ -1,0 +1,8 @@
+state_bucket = "bucket"
+state_key = "key"
+state_region = "us-east-1"
+state_lock_table = "table"
+state_profile = "default"
+
+profile = "default"
+region = "us-east-1"
