@@ -292,3 +292,4 @@ crash.log
 
 # End of https://www.gitignore.io/api/python,pycharm,terraform,pycharm+iml,pycharm+all
 vars.tfvars
+config-map-aws-auth.yaml

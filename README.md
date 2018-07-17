@@ -15,7 +15,8 @@ Much of this is pulled from [Terraform's guide on EKS](https://www.terraform.io/
 1. Create an S3 bucket to maintain your state file if you do not have one already. Make sure this bucket is secure, as secrets are stored in state files in plaintext
 2. Create a DynamoDB table for locking state
 3. Copy `terraform/vars.tfvars.template` to `terraform/vars.tfvars`, and fill in your desired values
-4.
+4. Run `terraform output config-map-aws-auth > config-map-aws-auth.yaml`
+5. Run `kubectl apply -f config-map-aws-auth.yaml`
 
 ## Dev
 1.
